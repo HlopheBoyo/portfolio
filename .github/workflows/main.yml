@@ -1,0 +1,9 @@
+- name: Deploy WordPress plugin
+  # You may pin to the exact commit or the version.
+  # uses: yukihiko-shinoda/action-deploy-wordpress-plugin@d3c21d2aaff17ec97401b7070511b9f47faaa2ea
+  uses: yukihiko-shinoda/action-deploy-wordpress-plugin@v2.1.0
+  with:
+    # Expect deploy version only for test mode for CI
+    expect-deploy-version-for-test: # optional, default is 
+    # Deploy version only for test mode for CI
+    deploy-version-for-test: # optional, default is 
